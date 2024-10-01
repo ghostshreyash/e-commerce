@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL= import.meta.env.VIT_API_BASE_URL;
+const baseURL= "https://e-commerce-backend-xfcr.onrender.com";
 
 const api = axios.create({baseURL});
 
